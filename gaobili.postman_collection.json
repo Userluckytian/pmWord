@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "f0f915c5-3a5b-cc24-93eb-3ee7467b690d",
+		"name": "gaobili",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://bangumi.bilibili.com/media/web_api/search/result?season_version=-1&area=-1&is_finish=0&copyright=-1&season_status=-1&season_month=-1&pub_date=-1&style_id=-1&order=3&st=1&sort=0&page=2&season_type=1&pagesize=30",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bangumi.bilibili.com/media/web_api/search/result?season_version=-1&area=-1&is_finish=0&copyright=-1&season_status=-1&season_month=-1&pub_date=-1&style_id=-1&order=3&st=1&sort=0&page=2&season_type=1&pagesize=30",
+					"protocol": "https",
+					"host": [
+						"bangumi",
+						"bilibili",
+						"com"
+					],
+					"path": [
+						"media",
+						"web_api",
+						"search",
+						"result"
+					],
+					"query": [
+						{
+							"key": "season_version",
+							"value": "-1"
+						},
+						{
+							"key": "area",
+							"value": "-1"
+						},
+						{
+							"key": "is_finish",
+							"value": "0"
+						},
+						{
+							"key": "copyright",
+							"value": "-1"
+						},
+						{
+							"key": "season_status",
+							"value": "-1"
+						},
+						{
+							"key": "season_month",
+							"value": "-1"
+						},
+						{
+							"key": "pub_date",
+							"value": "-1"
+						},
+						{
+							"key": "style_id",
+							"value": "-1"
+						},
+						{
+							"key": "order",
+							"value": "3"
+						},
+						{
+							"key": "st",
+							"value": "1"
+						},
+						{
+							"key": "sort",
+							"value": "0"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "season_type",
+							"value": "1"
+						},
+						{
+							"key": "pagesize",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post测试",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "test",
+							"value": "hello",
+							"description": "用于测试",
+							"type": "text"
+						},
+						{
+							"key": "test2",
+							"value": "",
+							"description": "还是测试",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.bilibili.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bilibili",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
